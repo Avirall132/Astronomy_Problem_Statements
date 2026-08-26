@@ -1,0 +1,63 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Agent / AI Configuration & Memory
+.gemini/
+.agents/
+GEMINI.md
+gemini.md
+AGENTS.md
+agents.md
+
+# Jupyter Notebook & Python Cache
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & OS specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Large Data Formats & Downloads
+*.fits
+*.pha
+*.lc
+*.gti
+*.hk
+*.sa
+*.xml
+*.csv
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.part
+*.download
+
+# Large Raw / Calibrated Dataset Directories
+Datasets/pradan.issdc.gov.in/
+Datasets/ch2_xsm_*/
+Datasets/vrsbench/
+Datasets/images/
+
+# Local backups and temporary logs
+.notebook_backups/
+*.log
+*.tmp
+temp/
